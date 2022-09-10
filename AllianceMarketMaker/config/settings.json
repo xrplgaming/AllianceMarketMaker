@@ -1,0 +1,11 @@
+﻿{
+  "WebSocketURL": "wss://xrplcluster.com/", //Main Net: 	wss://s1.ripple.com/  wss://xrplcluster.com/  Test Net: wss://s.altnet.rippletest.net/
+  "BotAddress": "", //Address that holds the liquidity tokens
+  "BotSecret": "", //Secret to the liquidity address. KEEP THIS PRIVATE AND SAFE!
+  "CurrencyCode": "", //currency code of token
+  "IssuerAddress": "", //Address that issued the currency
+  "BotTokenAmt": 1, //amount of tokens in each bid and ask
+  "TxnThrottle": 1, //Number of seconds between request calls. Recommended not to change. Lower settings could result in a block from web service hosts.
+  "Steps": 1, //Number of ask and bid offers around the mid price
+  "Interval": 0.002 //Multiplier of price increase/decrease around the mid price per step
+}
